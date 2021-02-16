@@ -1,0 +1,65 @@
+body {
+  background: url("img/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  color: #112036;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: #fff;
+}
+.subtitle {
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+.subtitle i {
+  margin: 0 20px;
+}
+.highlight {
+  font-weight: bold;
+}
+.calltoaction {
+  text-align: center;
+}
+.btn {
+  background-color: #e1306c;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px 45px 15px 45px;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #00acee;
+}
+/*cores*/
+.linkedin {
+  color: #0e76a8;
+}
+.twitter {
+  color: #00acee;
+}
+.instagram {
+  color: #405de6;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centers the item*/
+  bottom: 70px; /* Moves it up a little from the bottom*/
+  text-align: center;
+}
+footer ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 1rem;
+}
